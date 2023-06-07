@@ -1,0 +1,167 @@
+.name{
+    font-family:lucida handwriting;
+    font-size: 50px;
+    color: rgb(143, 6, 134);
+    text-align: center;
+}
+.thank{
+    font-family: lucida handwriting;
+    font-size: 30px;
+    color: rgb(3, 56, 3);
+    text-align: center;
+}
+.grid{
+    height: 500px;
+    width: 1500px;
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.grid{
+    height: 300px;
+    width: 1450px;
+    border-radius: 25px;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(84, 12, 84);
+    margin-left: 40px;
+}
+.grid1{
+    height: 250px;
+    width: 300px;
+
+    margin-top: 20px;
+    margin-left: 90px;
+    text-align: center;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.grid12{
+    border: 2px solid black;
+    height: 90px;
+    width: 300px;
+}
+.grid2{
+    height: 250px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-color: white;
+    border-radius: 25px;
+}
+.grid21{
+    height: 60px;
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+}
+.grid22{
+
+    height: 150px;
+    width: 300px;
+    margin-top: 10px;
+}
+.grid23{
+    border: 2px solid black;
+    height: 90px;
+    width: 300px;
+}
+.grid3{
+    height: 250px;
+    width:300px;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-color: white;
+    border-radius: 25px;
+}
+.grid31{
+    height: 90px;
+    width: 300px;
+    text-align: center;
+}
+.grid32{
+    height: 90px;
+    width: 300px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: georgia;
+}
+
+.contact{
+    font-size: 40px;
+    text-align: center;
+    font-family: fantasy;
+}
+.ques{
+    font-family: lucida handwriting;
+    font-size: 20px;
+    text-align: center;
+
+}
+.add{
+    text-align: center;
+    font-size: 15px;
+    font-family: georgia;
+}
+.num{
+    text-align: center;
+    font-size: 15px;
+    font-family:georgia;
+}
+.line{
+    height:10px;
+    width: 1500px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.line1{
+    height: 0px;
+    width: 700px;
+    border: 2px solid black;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+.or{
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.line2{
+    height: 0px;
+    width: 675px;
+    border: 2px solid black;
+    margin-right: 50px;
+}
+.box{
+    
+    height: 400px;
+    width: 1500px;
+
+}
+.box2{
+    height: 300px;
+    width: 600px;
+    border: 2px solid black;
+    margin-left: 450px;
+    font-family: georgia;
+    font-size: 20px;
+}
+.touch{
+    font-size: 30px;
+    font-family: georgia;
+    text-align: center;
+}
+/* .endrule{
+    height: 0px;
+    width: 1500px;
+    border: 2px solid black;
+} */
+.copy{
+    font-size: 20px;
+    text-align: center;
+    font-family: georgia;
+}
+.page{
+    background-image: linear-gradient(to right, violet, white);
+}

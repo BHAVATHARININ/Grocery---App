@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.container{
+    background-image: linear-gradient(to right, violet, white);
+    /* padding:150px 9%; */
+    padding-bottom: 100px;
+}
+
+.container .heading{
+    font-family: georgia;
+    text-align: center;
+    /* padding-bottom: 15px; */
+    color:black;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+.container .box-container{
+    font-family: georgia;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 50px;
+    background: #fff;
+    text-align: center;
+    padding:80px 10px;
+}
+
+.container .box-container .box img{
+    height: 90px;
+}
+
+.container .box-container .box h3{
+    color:#0f0101;
+    font-size: 25px;
+    padding:10px 0;
+}
+
+.container .box-container .box p{
+    color:#0a0101;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.container .box-container .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.container .box-container .box .btn:hover{
+    letter-spacing: 1px;
+}
+
+.container .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+@media (max-width:768px){
+    .container{
+        padding:20px;
+    }
+}
+
+
+
+.font{
+    font-family:lucida handwriting;
+    font-size: 70px;
+    color: rgb(143, 6, 134);
+    text-align: center;
+}
+.nanbar-nav{
+    font-size: 50px;
+}
+.fontf{
+    font-size:20px;
+    color: rgb(143, 6, 134);
+    text-decoration: none;
+    font-family: georgia;
+    margin-left: 400px;
+}
+.n1{
+    font-size: 20px;
+    font-family: georgia;
+    margin-left: 20px;
+}
+.n2{
+    font-size: 20px;
+    font-family: georgia;
+    margin-left: 20px;
+}
+.n3{
+    font-size: 20px;
+    font-family: georgia;
+    margin-left: 20px;
+}
+.n4{
+    font-size: 20px;
+    font-family: georgia;
+    margin-left: 20px;
+}
+.n5{
+    font-size: 20px;
+    font-family: georgia;
+    margin-left: 20px;
+}
+.n6{
+    font-size: 20px;
+    font-family: georgia;
+    margin-left: 20px;
+}
+.n7{
+    font-size: 20px;
+    font-family: georgia;
+    margin-left: 20px;
+}
+.n8{
+    font-family: georgia;
+    margin-left: 20px;
+}
+.about{
+    font-family: georgia;
+    color: brown;
+    text-align: center;
+}
+.india{
+    font-family:georgia;
+    color:brown;
+    text-align: center;
+}
+.para1,.para2{
+    font-family: georgia;
+    color:rgb(2, 38, 2);
+    text-justify: auto;
+    justify-content: center;
+}
+.thank{
+    font-family: lucida handwriting;
+    color: brown;
+    text-align: center;
+    font-size: 30px;
+}
+.center{
+    margin-right: 50px;
+    margin-left: 50px;
+    justify-content: center;
+    text-align: center;
+    text-align: justify;
+}
+.image{
+    text-align: center;
+    align-items: center;
+    margin-left: 600px;
+}
+.page{
+    background-image: linear-gradient(to right, violet, white);
+}
+.copy{
+    text-align: center;
+    font-family: georgia;
+    color: brown;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEARCH</title>
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="search.css">
+  </head>
+  <body class="page">
+    
+    <div class="wrapper">
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search product name here.."
+        />
+        <button id="search">Search</button>
+      </div>
+      <div id="buttons">
+        <button class="button-value" onclick="filterProduct('all')">All</button>
+        <button class="button-value" onclick="filterProduct('Beaverages')">
+          Beaverages
+        </button>
+        <button class="button-value" onclick="filterProduct('DryFruits')">
+          Dry Fruits
+        </button>
+        <button class="button-value" onclick="filterProduct('Snacks')">
+          Snacks
+        </button>
+        <button class="button-value" onclick="filterProduct('Chocolates')">
+          Chocolates
+        </button>
+        <button class="button-value" onclick="filterProduct('FrozenFoods')">
+          Frozen Foods
+        </button>
+        <button class="button-value" onclick="filterProduct('ToiletryProducts')">
+          Toiletry Products
+        </button>
+        <button class="button-value" onclick="filterProduct('Spices')">
+          Spices
+        </button>
+        <button class="button-value" onclick="filterProduct('Staples')">
+          Staples
+        </button>
+        <button class="button-value" onclick="filterProduct('KitchenAppliances')">
+        Kitchen Appliances
+        </button>
+      </div>
+      <div id="products"></div>
+    </div>
+    <!-- Script -->
+    <script src="search.js"></script>
+  </body>
+</html>

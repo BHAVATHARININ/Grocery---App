@@ -1,0 +1,176 @@
+.name{
+    font-family:lucida handwriting;
+    font-size: 50px;
+    color: rgb(14, 187, 55);
+    text-align: center;
+}
+
+.grid1{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    height: 300px;
+    width: 1500px;
+} 
+.cat{
+    font-size: 30px;
+    color:rgb(111, 96, 14);
+    text-align: center;
+    font-family:georgia;
+}
+.veg{
+    font-size: 20px;
+    color:white;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    background-color:rgb(19, 149, 19) ;
+    border-radius: 25px;
+    margin-top: 40px;
+    margin-left: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-family: papyrus;
+}
+.veg1{
+    display: flex;
+    margin: 10px;
+    background-color: rgb(233, 159, 85);;
+    height: 150px;
+    width: 175px;
+    border-radius: 25px;
+}
+.fruits{
+    font-size: 20px;
+    color:white;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    background-color:rgb(194, 21, 21);
+    border-radius: 25px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: papyrus;
+}
+.fruit1{
+    display: flex;
+    margin: 10px;
+    border-radius: 25px;
+    background-color:rgb(233, 159, 85);;
+    height: 150px;
+    width: 175px;
+}
+.meat{
+    font-size: 20px;
+    color:white;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    background-color:rgb(104, 77, 7);
+    border-radius: 25px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: papyrus;
+}
+.meat1{
+    display: flex;
+    margin: 10px;
+    border-radius: 25px;
+    background-color:rgb(233, 159, 85);;
+    height: 150px;
+    width: 175px;
+}
+.snacks{
+    font-size: 20px;
+    color:white;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    background-color:rgb(99, 3, 99);
+    border-radius: 25px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: papyrus;
+}
+.snack1{
+    display: flex;
+    margin: 10px;
+    border-radius: 25px;
+    background-color:rgb(233, 159, 85);;
+    height: 150px;
+    width: 175px;
+}
+.grid2{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    border-radius: 25px;
+    height: 300px;
+    width: 1500px;
+}
+.beverages{
+
+    font-size: 20px;
+    color:white;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    background-color:rgb(179, 103, 28);
+    border-radius: 25px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: papyrus;
+    margin-left: 220px;
+}
+.bev1{
+    display: flex;
+    margin: 10px;
+    border-radius: 25px;
+    background-color:rgb(233, 159, 85);
+    height: 150px;
+    width: 175px;
+}
+.spices{
+    font-size: 20px;
+    color:white;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    background-color:rgb(116, 10, 28);
+    border-radius: 25px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: papyrus;
+}
+.spice1{
+    display: flex;
+    margin: 10px;
+    border-radius: 25px;
+    background-color:rgb(233, 159, 85);
+    height: 150px;
+    width: 175px;
+}
+.staples{
+    font-size: 20px;
+    color:white;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+    background-color:rgb(2, 44, 2);
+    border-radius: 25px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-family: papyrus;
+}
+.staple1{
+    display: flex;
+    margin: 10px;
+    border-radius: 25px;
+    background-color:rgb(233, 159, 85);
+    height: 150px;
+    width: 175px;
+} 
